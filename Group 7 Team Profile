@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta name = "viewport" content="width=device-width,initial-scale=1.0"/>
+
+    <title> GROUP 7 - TEAM PROFILE </title>
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" 
+
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+
+    />
+
+    <!-- Google Font -->
+
+    <link
+
+    href="https://fonts.googleaepis.com/css2? family=Poppins:wght@300;500;600&display=swap"
+
+    rel="stylesheet"
+
+    />
+
+    <!-- Stylesheet -->
+
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+
+  <body>
+
+    <section> 
+
+    <div class="row">
+
+      <h1> OUR TEAM</h1>
+
+    </div>
+
+    <div class="row">
+
+      <!-- Column 1 -->
+
+      <div  class="column">
+
+        <div class="card">
+
+          <div class="img-container">
+
+            <img src="https://assets.onecompiler.app/42qcmpfpx/42qcnbvnw/DANNICA.1%20(2).jpg"/>
+
+          </div>
+
+          <h3> Dannica Arciaga</h3>
+
+          <p>21 years old</p>
+
+          <p>June 18, 2003</p>
+
+          <p> "Do good, and good will come back to you".</p>
+
+          <div class="icons">
+
+            <a href="#">
+
+                  <i class="fab fa-instagram"></i>
+
+            </a>
+
+            <a href="#">
+
+                  <i class="fab fa-linkedin"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+       <!-- Column 2 -->
+
+      <div  class="column">
+
+        <div class="card">
+
+          <div class="img-container">
+
+            <img src="https://assets.onecompiler.app/42qcmpfpx/42qcnbvnw/GWEN1.jfif" />
+
+          </div>
+
+          <h3> Guinever Bacunawa</h3>
+
+          <p>20 years old</p>
+
+          <p>August 13, 2004</p>
+
+          <p> "Find joy in the ordinary".</p>
+
+          <div class="icons">
+
+            <a href="#">
+
+                  <i class="fab fa-instagram"></i>
+
+            </a>
+
+            <a href="#">
+
+                  <i class="fab fa-linkedin"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+       <!-- Column 3 -->
+
+      <div  class="column">
+
+        <div class="card">
+
+          <div class="img-container">
+
+            <img src="https://assets.onecompiler.app/42qcmpfpx/42qcnbvnw/LAUREN%20(4).jfif" />
+
+          </div>
+
+          <h3> Lauren P. Flores</h3>
+
+          <p>22 years old</p>
+
+          <p>April 17, 2002</p>
+
+          <p> "Treat others the way you want to be treated".</p>
+
+          <div class="icons">
+
+            <a href="#">
+
+                  <i class="fab fa-instagram"></i>
+
+            </a>
+
+            <a href="#">
+
+                  <i class="fab fa-linkedin"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+        <!-- Column 4-->
+
+      <div  class="column">
+
+        <div class="card">
+
+          <div class="img-container">
+
+            <img src="https://assets.onecompiler.app/42qcmpfpx/42qcnbvnw/MARYROSE1.jpg" />
+
+          </div>
+
+          <h3> Mary Rose A. Venegra</h3>
+
+          <p>20 years old</p>
+
+          <p>December 30, 2003</p>
+
+          <p> "Start where you are. Use what you have. Do what you can".</p>
+
+          <div class="icons">
+
+            <a href="#">
+
+                  <i class="fab fa-instagram"></i>
+
+            </a>
+
+            <a href="#">
+
+                  <i class="fab fa-linkedin"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+       <!-- Column 5 -->
+
+      <div  class="column">
+
+        <div class="card">
+
+          <div class="img-container">
+
+            <img src="https://assets.onecompiler.app/42qcmpfpx/42qcnbvnw/CHELS1%20(4).jpg" />
+
+          </div>
+
+          <h3> Chelsea V.Patungan </h3>
+
+          <p>23 years old</p>
+
+          <p>August 13, 2001</p>
+
+          <p>"You don't get what you wish for. You get what you work for".</p>
+
+          <div class="icons">
+
+            <a href="#">
+
+                  <i class="fab fa-instagram"></i>
+
+            </a>
+
+            <a href="#">
+
+                  <i class="fab fa-linkedin"></i>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+     </div>
+
+    </section>
+
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+
+  padding: 0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins", Sans-Serif;
+
+}
+
+body {
+
+  background-color: #e8daef;
+
+}
+
+.row {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  padding : 1em 1em;
+
+  text-align: center;
+
+}
+
+.column {
+
+  width:50%;
+
+  padding :0.5em 0;
+
+  justify-content:space-around;
+
+}
+
+h1 {
+
+  width: 100%;
+
+  text-align: center;
+
+  font-size: 3.5em;
+
+  color: #1f003b;
+
+}
+
+.card {
+
+  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.15);
+
+  padding : 3.5em 1em;
+
+  border-radius: 0.6em;
+
+  color: #1f003b;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  margin: 20px;
+
+  background-color:#ffffff;
+
+}
+
+.card .img-container {
+
+  width: 8em;
+
+  height: 8em;
+
+  background-color: #a993ff;
+
+  padding: 0.5em;
+
+  border-radius: 50%;
+
+  margin: 0 auto 2em auto;
+
+}
+
+.card img {
+
+  width: 100%;
+
+  border-radius: 50%;
+
+  width: 10;
+
+}
+
+.card h3{
+
+  font-weight: 500;
+
+  margin-bottom 10px;
+
+}
+
+.card p {
+
+  font-weight: 300;
+
+  text-transform: uppercase;
+
+  margin: 0.5em 0 2em 0;
+
+  letter-spacing: 2px;
+
+}
+
+.icons {
+
+  width: 50%;
+
+  min-width: 50px;
+
+  margin: auto;
+
+  display: flex;
+
+  justify-content:space-between;
+
+}
+
+.card a {
+
+  text-decoration: none;
+
+  color: inherit;
+
+  font-size: 1.4em;
+
+}
+
+.card:hover {
+
+  background: linear-gradient (#e8daef);
+
+  color: ##e8daef;
+
+}
+
+.card:hover .img-container {
+
+  transform: scale(1.15);
+
+}
+
+@media screen and (min-width: 768px){
+
+  section{
+
+    padding: 1em 7em;
+
+  }
+
+}
+
+@media screen and (min-width: 992px){
+
+  section{
+
+    padding: 1em;
+
+  }
+
+  .card {
+
+    padding: 5em 1em;
+
+  }
+
+  .column {
+
+    flex: 0 0 33.33%;
+
+    max-width: 33.33%;
+
+    padding: 0 1em;   
+
+  }
+
